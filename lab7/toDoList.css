@@ -1,0 +1,15 @@
+.toDoList {
+    text-align: center;
+}
+form {
+    margin-top: 20px;
+}
+input {
+    margin: 5px 0;
+}
+.toDoListItem {
+    margin-bottom: 10px;
+}
+.toDoListItem p:first-child {
+    text-align: right;
+}

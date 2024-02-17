@@ -1,0 +1,19 @@
+h1 { 
+    /* styles here apply to all breakpoints unless overridden */
+    font-size: 14px; 
+    text-align: center; /* doesn't get overridden */
+    background-color: aquamarine;
+}
+ 
+@media screen and (min-width: 480px) {
+  h1 {
+    font-size: 24px; /* overrides 14px */
+    background-color: white; /* overrides aquamarine, doesn't get overridden by later breakpoints */
+  }
+}
+ 
+@media screen and (min-width: 768px) {
+  h1 {
+    font-size: 30px; /* overrides 24px */
+  }
+}
